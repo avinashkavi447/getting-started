@@ -4,6 +4,6 @@ WORKDIR /app
 COPY . .
 RUN yarn install --production
 #RUN chmod +x  entrypoint.sh
-ENTRYPOINT [ "/bin/sh" , "-c", "entrypoint.sh" && "node", "src/index.js"  ]
+ENTRYPOINT [ "sh"  "entrypoint.sh" ]
 #CMD ["node", "src/index.js"]
 EXPOSE 3000
