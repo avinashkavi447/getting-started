@@ -1,4 +1,4 @@
 #!/bin/sh
-export FOO="BAR"
-export SERVICE_NAME="devs"
-exec "$@
+echo export FOO="BAR"
+echo export SERVICE_NAME="devs"
+
