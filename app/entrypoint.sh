@@ -2,6 +2,6 @@
 
 set -e
 
-    echo export NAME = Avinash
-    echo export ownerr = kumar
+    echo export NAME=Avinash
+    echo export OWNER=kumar
   
