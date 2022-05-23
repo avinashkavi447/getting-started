@@ -1,2 +1,4 @@
 #!/bin/sh
-export SERVICE_NAME=dev
+export FOO="BAR"
+export SERVICE_NAME="devs"
+exec "$@
