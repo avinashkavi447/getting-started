@@ -1,2 +1,2 @@
 #!/bin/sh
---env SERVICE_NAME=dev
+export SERVICE_NAME=dev
