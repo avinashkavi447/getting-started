@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+echo export FOO=BAR
+echo export Name=NEW
+
+
+   
