@@ -1,7 +1,5 @@
 #!/bin/sh
 
 set -e
-
-    echo export NAME=Avinash
-    echo export OWNER=kumar
+aws secretsmanager --region=us-east-1 get-secret-value   --secret-id Devenv   --query SecretString  --output text | jq -r ' to_entries | .[] | .key + "=" + (.value | @sh)' >> Devenv
   
